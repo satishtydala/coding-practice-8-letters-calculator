@@ -1,0 +1,56 @@
+/* Write your code here. */
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-element {
+  width: 250px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  outline: none;
+  color: #e4e7eb;
+}
+.label-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+.count {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  color: #1d976c;
+  background-color: #ffffff;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.calculator-image {
+  height: 500px;
+  width: 700px;
+}
